@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringBootDubbo/DubboClient/DubboClient.iml" filepath="$PROJECT_DIR$/SpringBootDubbo/DubboClient/DubboClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootDubbo/DubboService/DubboService.iml" filepath="$PROJECT_DIR$/SpringBootDubbo/DubboService/DubboService.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/SpringBoot.iml" filepath="$PROJECT_DIR$/.idea/SpringBoot.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootBatch/SpringBootBatch.iml" filepath="$PROJECT_DIR$/SpringBootBatch/SpringBootBatch.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootCache/SpringBootCache.iml" filepath="$PROJECT_DIR$/SpringBootCache/SpringBootCache.iml" />

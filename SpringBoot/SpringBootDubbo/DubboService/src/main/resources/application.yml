@@ -1,0 +1,23 @@
+server:
+  #服务端口号
+  port: 8081
+spring:
+  dubbo:
+    application:
+      #ubbo应用名称
+      name: dubbo-provider-name
+    #是否是服务端
+    server: true
+    #注解扫描路径
+    scan: com.example
+    #注册中心的地址
+    registry:
+      #zookeeper地址
+      address: zookeeper://127.0.0.1
+      #zookeeper端口号
+      port: 2181
+    protocol:
+      #dubbo注册名称
+      name: dubbo
+      #dubbo注册端口号
+      port: 20896

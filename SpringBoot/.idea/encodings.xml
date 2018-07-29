@@ -4,6 +4,8 @@
     <file url="file://$PROJECT_DIR$/SpringBootBatch" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBootCache" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBootDubbo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBootDubbo/DubboClient" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBootDubbo/DubboService" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBootElasticSearch" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBootJMS" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBootJWT" charset="UTF-8" />

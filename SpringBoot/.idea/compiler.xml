@@ -22,7 +22,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="springboot-dubbo" />
+        <module name="DubboClient" />
+        <module name="DubboService" />
         <module name="springboot-redis" />
         <module name="SpringBootBatch" />
         <module name="SpringBootCache" />
@@ -38,6 +39,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="DubboClient" target="1.8" />
+      <module name="DubboService" target="1.8" />
       <module name="springboot-dubbo" target="1.8" />
       <module name="springboot-redis" target="1.8" />
       <module name="SpringBootBatch" target="1.8" />

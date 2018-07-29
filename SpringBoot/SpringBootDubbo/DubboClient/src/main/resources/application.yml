@@ -1,0 +1,19 @@
+server:
+  #服务端口号
+  port: 8080
+spring:
+  dubbo:
+    application:
+      #ubbo应用名称
+      name: platform-team-controller
+    #注册中心的地址
+    registry:
+      #zookeeper地址
+      address: zookeeper://127.0.0.1
+      #zookeeper端口号
+      port: 2181
+    #注解扫描路径
+    scan: com.example
+    protocol:
+      #dubbo注册名称
+      name: dubbo
