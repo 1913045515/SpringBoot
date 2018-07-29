@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/SpringBoot.iml" filepath="$PROJECT_DIR$/.idea/SpringBoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootBatch/SpringBootBatch.iml" filepath="$PROJECT_DIR$/SpringBootBatch/SpringBootBatch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootCache/SpringBootCache.iml" filepath="$PROJECT_DIR$/SpringBootCache/SpringBootCache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootElasticSearch/SpringBootElasticSearch.iml" filepath="$PROJECT_DIR$/SpringBootElasticSearch/SpringBootElasticSearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootJMS/SpringBootJMS.iml" filepath="$PROJECT_DIR$/SpringBootJMS/SpringBootJMS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootJWT/SpringBootJWT.iml" filepath="$PROJECT_DIR$/SpringBootJWT/SpringBootJWT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootMongodb/SpringBootMongodb.iml" filepath="$PROJECT_DIR$/SpringBootMongodb/SpringBootMongodb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootMybatis/SpringBootMybatis.iml" filepath="$PROJECT_DIR$/SpringBootMybatis/SpringBootMybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootQuartz/SpringBootQuartz.iml" filepath="$PROJECT_DIR$/SpringBootQuartz/SpringBootQuartz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootRabbitMQ/SpringBootRabbitMQ.iml" filepath="$PROJECT_DIR$/SpringBootRabbitMQ/SpringBootRabbitMQ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootShiro/SpringBootShiro.iml" filepath="$PROJECT_DIR$/SpringBootShiro/SpringBootShiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootDubbo/springboot-dubbo.iml" filepath="$PROJECT_DIR$/SpringBootDubbo/springboot-dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootRedis/springboot-redis.iml" filepath="$PROJECT_DIR$/SpringBootRedis/springboot-redis.iml" />
+    </modules>
+  </component>
+</project>

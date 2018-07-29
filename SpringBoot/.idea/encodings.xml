@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/SpringBootBatch" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBootCache" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBootDubbo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBootElasticSearch" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBootJMS" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBootJWT" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBootMongodb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBootMybatis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBootQuartz" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBootRabbitMQ" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBootRedis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBootShiro" charset="UTF-8" />
+  </component>
+</project>

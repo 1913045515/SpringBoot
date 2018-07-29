@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DevPartner.ProjectProperties">
+    <option name="dpjConfigurationName" value="misc" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../SpringBootDubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringBootRedis/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootDubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootMongodb/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootRedis/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootRabbitMQ/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootElasticSearch/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootMybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootQuartz/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootShiro/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootJMS/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootJWT/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootCache/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootBatch/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_3" default="true" assert-keyword="false" jdk-15="false" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\19130\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

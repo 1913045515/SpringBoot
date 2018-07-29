@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="springboot-dubbo" />
+        <module name="springboot-redis" />
+        <module name="SpringBootBatch" />
+        <module name="SpringBootCache" />
+        <module name="SpringBootElasticSearch" />
+        <module name="SpringBootJMS" />
+        <module name="SpringBootJWT" />
+        <module name="SpringBootMongodb" />
+        <module name="SpringBootMybatis" />
+        <module name="SpringBootQuartz" />
+        <module name="SpringBootRabbitMQ" />
+        <module name="SpringBootRedis" />
+        <module name="SpringBootShiro" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springboot-dubbo" target="1.8" />
+      <module name="springboot-redis" target="1.8" />
+      <module name="SpringBootBatch" target="1.8" />
+      <module name="SpringBootCache" target="1.8" />
+      <module name="SpringBootDubbo" target="1.5" />
+      <module name="SpringBootElasticSearch" target="1.8" />
+      <module name="SpringBootJMS" target="1.8" />
+      <module name="SpringBootJWT" target="1.8" />
+      <module name="SpringBootMongodb" target="1.8" />
+      <module name="SpringBootMybatis" target="1.8" />
+      <module name="SpringBootQuartz" target="1.8" />
+      <module name="SpringBootRabbitMQ" target="1.8" />
+      <module name="SpringBootRedis" target="1.5" />
+      <module name="SpringBootShiro" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
