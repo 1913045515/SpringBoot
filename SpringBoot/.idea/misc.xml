@@ -25,6 +25,7 @@
         <option value="$PROJECT_DIR$/SpringBootBatch/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBootDubbo/DubboClient/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBootDubbo/DubboService/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootRedis/SpringBootRedis/pom.xml" />
       </list>
     </option>
   </component>
@@ -39,9 +40,6 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
-  <component name="SvnConfiguration">
-    <configuration>C:\Users\19130\AppData\Roaming\Subversion</configuration>
-  </component>
   <component name="masterDetails">
     <states>
       <state key="ProjectJDKs.UI">
