@@ -1,23 +1,23 @@
 spring:
-  data:
-    mongodb:
-      database: yfy
-      #mongodb集群相关配置
-      ip-and-ports: 192.168.11.27:20000,192.168.11.28:20000,192.168.11.44:20000
-      #mongodb用户账号密码相关配置
-      dbname: yfy
-      username: mongouser
-      pwd: infunmongo
-      hostport: mongo.infuneye.com:27017
-      connectionsPerHost: 8
-      threadsAllowedToBlockForConnectionMultiplier: 4
-      #连接超时时间
-      connectTimeout: 1000
-      #等待时间
-      maxWaitTime: 1500
-      autoConnectRetry: true
-      socketKeepAlive: true
-      #Socket超时时间
-      socketTimeout: 1500
-      slaveOk: true
-      uri: mongodb://mongo.infuneye.com:27017/yfy
+  #配置redis
+  redis:
+    #redis集群
+    cluster:
+      nodes: redis.infuneye.com:6001,redis.infuneye.com:6002,redis.infuneye.com:6003,redis.infuneye.com:6004,redis.infuneye.com:6005,redis.infuneye.com:6006
+    # Redis服务器连接密码（默认为空）
+    password:
+    # 连接超时时间（毫秒）
+    timeout: 10000
+    pool:
+      # 连接池中的最大空闲连接
+      max-idle: 300
+      # 连接池中的最小空闲连接
+      min-idle: 1
+      #连接池最大连接数（使用负值表示没有限制）
+      max-active: 20
+      # 连接池最大阻塞等待时间（使用负值表示没有限制）
+      max-wait: -1
+      test-on-borrow: true
+      test-while-idle: true
+    host: redis.infuneye.com
+    port: 6001

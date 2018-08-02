@@ -1,9 +1,10 @@
 package com.example.demo.controller;
+
 import com.example.demo.entity.TestVO;
 import com.example.demo.util.MongoUtil;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import javax.annotation.Resource;
+
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;

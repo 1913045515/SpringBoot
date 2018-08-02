@@ -11,28 +11,13 @@ import org.springframework.web.context.WebApplicationContext;
  * @create 2018/08/01
  */
 public class SpringBootBeanAutowiringSupport {
-
     private static final Log logger = LogFactory.getLog(SpringBootBeanAutowiringSupport.class);
 
-    /**
-     * This constructor performs injection on this instance,
-     * based on the current web application context.
-     * <p>Intended for use as a base class.
-     * @see #processInjectionBasedOnCurrentContext
-     */
     public SpringBootBeanAutowiringSupport() {
         processInjectionBasedOnCurrentContext(this);
     }
 
-    /**
-     * Process {@code @Autowired} injection for the given target object,
-     * based on the current web application context.
-     * <p>Intended for use as a delegate.
-     * @param target the target object to process
-     * @see org.springframework.web.context.ContextLoader#getCurrentWebApplicationContext()
-     */
     public static void processInjectionBasedOnCurrentContext(Object target) {
-        Assert.notNull(target, "Target object must not be null");
         WebApplicationContext cc = WebApplicationContextLocator.getCurrentWebApplicationContext();
         if (cc != null) {
             AutowiredAnnotationBeanPostProcessor bpp = new AutowiredAnnotationBeanPostProcessor();

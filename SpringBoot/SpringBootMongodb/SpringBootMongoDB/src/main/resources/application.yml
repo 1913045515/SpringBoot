@@ -10,7 +10,6 @@ spring:
       dbname: yfy
       username: mongouser
       pwd: infunmongo
-      hostport: mongo.infuneye.com:27017
       connectionsPerHost: 8
       threadsAllowedToBlockForConnectionMultiplier: 4
       #连接超时时间

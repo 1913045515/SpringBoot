@@ -4,6 +4,7 @@ import org.springframework.boot.web.servlet.ServletContextInitializer;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.context.WebApplicationContext;
 import org.springframework.web.context.support.WebApplicationContextUtils;
+
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 
@@ -19,6 +20,7 @@ public class WebApplicationContextLocator implements ServletContextInitializer {
     public static WebApplicationContext getCurrentWebApplicationContext() {
         return webApplicationContext;
     }
+
     /**
      * 在启动时将servletContext 获取出来，后面再读取二次使用。
      * @param servletContext

@@ -15,9 +15,7 @@ import org.springframework.data.mongodb.core.mapping.MongoMappingContext;
 import org.springframework.data.mongodb.gridfs.GridFsTemplate;
 import java.util.ArrayList;
 import java.util.List;
-
 import static java.util.Collections.singletonList;
-
 /**
  * @author linzhiqiang
  * @create 2018/08/01
@@ -27,12 +25,13 @@ public class ApplicationConfig extends AbstractMongoConfiguration {
 
     @Value("${spring.data.mongodb.database}")
     private String dbname;
+
     @Value("${spring.data.mongodb.ip-and-ports}")
-
     private String ipAndPort;
-    @Value("${spring.data.mongodb.username}")
 
+    @Value("${spring.data.mongodb.username}")
     private String userName;
+
     @Value("${spring.data.mongodb.pwd}")
     private String pwd;
 
