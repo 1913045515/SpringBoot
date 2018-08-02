@@ -1055,7 +1055,6 @@ public class RedisClusterUtil {
         }
     }
 
-
     public void expire(String key){
         try {
             redisTemplate.expire(key, (3600 * 24 * 30), TimeUnit.SECONDS);//设置30天的有效期

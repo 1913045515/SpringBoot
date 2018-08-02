@@ -5,7 +5,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
 
-
 /**
  * 测试的控制类
  * @author linzhiqiang

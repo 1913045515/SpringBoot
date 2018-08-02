@@ -1,3 +1,5 @@
+server:
+  port: 8080
 spring:
   data:
     mongodb:
@@ -20,4 +22,3 @@ spring:
       #Socket超时时间
       socketTimeout: 1500
       slaveOk: true
-      uri: mongodb://mongo.infuneye.com:27017/yfy

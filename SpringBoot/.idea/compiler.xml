@@ -31,6 +31,7 @@
         <module name="SpringBootJMS" />
         <module name="SpringBootJWT" />
         <module name="SpringBootMongodb" />
+        <module name="SpringBootMongoDB" />
         <module name="SpringBootMybatis" />
         <module name="SpringBootQuartz" />
         <module name="SpringBootRabbitMQ" />
@@ -50,6 +51,7 @@
       <module name="SpringBootJMS" target="1.8" />
       <module name="SpringBootJWT" target="1.8" />
       <module name="SpringBootMongodb" target="1.8" />
+      <module name="SpringBootMongoDB" target="1.8" />
       <module name="SpringBootMybatis" target="1.8" />
       <module name="SpringBootQuartz" target="1.8" />
       <module name="SpringBootRabbitMQ" target="1.8" />
