@@ -54,7 +54,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpringBootLog4j2Application.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SpringBootLog4j2Application.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SpringBootLog4j2/src/main/java/com/example/demo/SpringBootLog4j2Application.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -67,14 +67,16 @@
       <file leaf-file-name="Log4j2Controller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SpringBootLog4j2/src/main/java/com/example/demo/controller/Log4j2Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="316">
+              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="log4j2.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="log4j2.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SpringBootLog4j2/src/main/resources/log4j2.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="918">
@@ -164,8 +166,8 @@
         <option value="$PROJECT_DIR$/SpringBootLog4j2/src/main/java/com/example/demo/controller/log4j2Controller.java" />
         <option value="$PROJECT_DIR$/SpringBootLog4j2/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/SpringBootLog4j2/pom.xml" />
-        <option value="$PROJECT_DIR$/SpringBootLog4j2/src/main/java/com/example/demo/controller/Log4j2Controller.java" />
         <option value="$PROJECT_DIR$/SpringBootLog4j2/src/main/resources/log4j2.yml" />
+        <option value="$PROJECT_DIR$/SpringBootLog4j2/src/main/java/com/example/demo/controller/Log4j2Controller.java" />
       </list>
     </option>
   </component>
@@ -222,7 +224,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -365,8 +369,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -948,7 +950,9 @@
       <workItem from="1533561419013" duration="3546000" />
       <workItem from="1533603769799" duration="61000" />
       <workItem from="1533604490582" duration="443000" />
-      <workItem from="1533607807446" duration="331000" />
+      <workItem from="1533607807446" duration="543000" />
+      <workItem from="1533632321641" duration="588000" />
+      <workItem from="1533641507325" duration="77000" />
     </task>
     <task id="LOCAL-00001" summary="添加子项目">
       <created>1532837335697</created>
@@ -992,14 +996,21 @@
       <option name="project" value="LOCAL" />
       <updated>1533608104564</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="添加log4j2项目">
+      <created>1533641575722</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1533641575722</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44183000" />
+    <option name="totallyTimeSpent" value="45060000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-13" y="-13" width="2586" height="1386" extended-state="0" />
+    <frame x="-13" y="-13" width="2586" height="1386" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1017,13 +1028,13 @@
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23160873" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949513" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1364039" sideWeight="0.4983832" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949513" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949513" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1041,7 +1052,8 @@
     <MESSAGE value="添加子项目" />
     <MESSAGE value="添加redis项目" />
     <MESSAGE value="添加mongodb项目" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加mongodb项目" />
+    <MESSAGE value="添加log4j2项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加log4j2项目" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1509,14 +1521,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringBootLog4j2/src/main/java/com/example/demo/SpringBootLog4j2Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SpringBootLog4j2/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1525,18 +1529,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringBootLog4j2/src/main/java/com/example/demo/controller/Log4j2Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SpringBootLog4j2/src/main/resources/log4j2.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
           <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBootLog4j2/src/main/java/com/example/demo/controller/Log4j2Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBootLog4j2/src/main/java/com/example/demo/SpringBootLog4j2Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="29" />
           <folding />
         </state>
       </provider>
