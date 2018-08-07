@@ -30,6 +30,7 @@
         <module name="SpringBootElasticSearch" />
         <module name="SpringBootJMS" />
         <module name="SpringBootJWT" />
+        <module name="SpringBootLog4j2" />
         <module name="SpringBootMongodb" />
         <module name="SpringBootMongoDB" />
         <module name="SpringBootMybatis" />
@@ -50,6 +51,7 @@
       <module name="SpringBootElasticSearch" target="1.8" />
       <module name="SpringBootJMS" target="1.8" />
       <module name="SpringBootJWT" target="1.8" />
+      <module name="SpringBootLog4j2" target="1.8" />
       <module name="SpringBootMongodb" target="1.8" />
       <module name="SpringBootMongoDB" target="1.8" />
       <module name="SpringBootMybatis" target="1.8" />

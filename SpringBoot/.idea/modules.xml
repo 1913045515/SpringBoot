@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/SpringBootElasticSearch/SpringBootElasticSearch.iml" filepath="$PROJECT_DIR$/SpringBootElasticSearch/SpringBootElasticSearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootJMS/SpringBootJMS.iml" filepath="$PROJECT_DIR$/SpringBootJMS/SpringBootJMS.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootJWT/SpringBootJWT.iml" filepath="$PROJECT_DIR$/SpringBootJWT/SpringBootJWT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootLog4j2/SpringBootLog4j2.iml" filepath="$PROJECT_DIR$/SpringBootLog4j2/SpringBootLog4j2.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootMongodb/SpringBootMongoDB/SpringBootMongoDB.iml" filepath="$PROJECT_DIR$/SpringBootMongodb/SpringBootMongoDB/SpringBootMongoDB.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootMongodb/SpringBootMongodb.iml" filepath="$PROJECT_DIR$/SpringBootMongodb/SpringBootMongodb.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootMybatis/SpringBootMybatis.iml" filepath="$PROJECT_DIR$/SpringBootMybatis/SpringBootMybatis.iml" />

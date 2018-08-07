@@ -27,6 +27,7 @@
         <option value="$PROJECT_DIR$/SpringBootDubbo/DubboService/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBootRedis/SpringBootRedis/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBootMongodb/SpringBootMongoDB/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootLog4j2/pom.xml" />
       </list>
     </option>
   </component>
