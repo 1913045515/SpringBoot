@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-@RequestMapping("log4j")
+@RequestMapping("log4j2")
 public class Log4j2Controller {
     private static final Logger logger = LoggerFactory.getLogger(Log4j2Controller.class);
     @RequestMapping("test")
