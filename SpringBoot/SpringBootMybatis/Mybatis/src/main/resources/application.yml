@@ -1,0 +1,25 @@
+server:
+  port: 8080
+
+
+spring:
+  #配置mybatis
+  datasource:
+    #数据库url地址
+    url: jdbc:mysql://basic-mysql-dev.infuneye.com:3306/yfy_aliyun_test?useSSL=false
+    #数据库名称
+    username: infuneye
+    #数据库密码
+    password: infuneye_2017
+    #数据库驱动名称
+    driver-class-name: com.mysql.jdbc.Driver
+    #最大等待时间
+    maxWait: 60000
+    maxActive: 20
+    initialSize: 1
+    minIdle: 1
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+#指定mybatis映射文件的地址
+mybatis:
+  mapper-locations: classpath:mapper/*.xml

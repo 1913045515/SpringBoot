@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+#配置数据源
+spring:
+  application:
+    name: mq-provider
+  rabbitmq:
+    host: 192.168.11.31
+    port: 30002
+    username: admin
+    password: admin
+
+
+
+

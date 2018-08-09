@@ -1,0 +1,51 @@
+Configuration:
+  status: warn
+  Properties: # 定义全局变量
+    Property: # 缺省配置（用于开发环境）。其他环境需要在VM参数中指定，如下：
+      - name: log.level.console
+        value: debug
+      - name: log.level.com.example.demo.mapper
+        value: trace
+      - name: log.path
+        value: /opt/logs
+      - name: project.name
+        value: test
+
+  Appenders:
+    Console:  # 输出到控制台
+      name: CONSOLE
+      target: SYSTEM_OUT
+      ThresholdFilter:
+        level: ${sys:log.level.console} # “sys:”表示：如果VM参数中没指定这个变量值，则使用本文件中定义的缺省全局变量值
+        onMatch: ACCEPT
+        onMismatch: DENY
+      PatternLayout:
+        pattern: "%d{yyyy-MM-dd HH:mm:ss}:%5p %10t [%15F:%3L] - %m%n"
+    RollingFile: # 输出到文件，超过128MB归档
+      - name: ROLLING_FILE
+        ignoreExceptions: false
+        fileName: "${log.path}/${project.name}.log"
+        filePattern: "${log.path}/${project.name}-%d{yyyy-MM-dd}.log"
+        append: true
+        PatternLayout:
+          pattern: "%d{yyyy-MM-dd HH:mm:ss,SSS}:%5p %20t [%50F:%3L] - %m%n"
+        Policies:
+          TimeBasedTriggeringPolicy:
+            interval: 1
+            modulate: true
+        DefaultRolloverStrategy:
+          max: 20
+
+  Loggers:
+    Root:
+      level: info
+      AppenderRef:
+        - ref: CONSOLE
+        - ref: ROLLING_FILE
+    Logger: # 为 com.infun.platform.es.mapper包配置特殊的Log级别，方便调试 SQL 语句输出
+      - name: com.example.demo.mapper
+        additivity: false
+        level: ${sys:log.level.com.example.demo.mapper}
+        AppenderRef:
+          - ref: CONSOLE
+          - ref: ROLLING_FILE

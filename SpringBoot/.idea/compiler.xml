@@ -24,6 +24,8 @@
         <processorPath useClasspath="true" />
         <module name="DubboClient" />
         <module name="DubboService" />
+        <module name="Mybatis" />
+        <module name="RabbitMQ" />
         <module name="springboot-redis" />
         <module name="SpringBootBatch" />
         <module name="SpringBootCache" />
@@ -33,16 +35,24 @@
         <module name="SpringBootLog4j2" />
         <module name="SpringBootMongodb" />
         <module name="SpringBootMongoDB" />
-        <module name="SpringBootMybatis" />
         <module name="SpringBootQuartz" />
         <module name="SpringBootRabbitMQ" />
         <module name="SpringBootRedis" />
         <module name="SpringBootShiro" />
       </profile>
+      <profile default="false" name="Annotation profile for SpringBootMybatis" enabled="true">
+        <sourceOutputDir name="Mybatis/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="Mybatis/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="SpringBootMybatis" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="DubboClient" target="1.8" />
       <module name="DubboService" target="1.8" />
+      <module name="Mybatis" target="1.8" />
+      <module name="RabbitMQ" target="1.8" />
       <module name="springboot-dubbo" target="1.8" />
       <module name="springboot-redis" target="1.8" />
       <module name="SpringBootBatch" target="1.8" />

@@ -13,8 +13,10 @@
     <file url="file://$PROJECT_DIR$/SpringBootMongodb" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBootMongodb/SpringBootMongoDB" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBootMybatis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBootMybatis/Mybatis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBootQuartz" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBootRabbitMQ" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBootRabbitMQ/RabbitMQ" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBootRedis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBootRedis/SpringBootRedis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBootRedis/SpringBootRedis/src/main/resources/application.yml" charset="UTF-8" />
