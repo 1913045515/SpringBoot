@@ -30,6 +30,7 @@
         <option value="$PROJECT_DIR$/SpringBootLog4j2/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBootRabbitMQ/RabbitMQ/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBootMybatis/Mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootQuartz/Quartz/pom.xml" />
       </list>
     </option>
   </component>

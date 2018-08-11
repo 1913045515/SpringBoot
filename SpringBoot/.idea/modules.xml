@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/SpringBootDubbo/DubboClient/DubboClient.iml" filepath="$PROJECT_DIR$/SpringBootDubbo/DubboClient/DubboClient.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootDubbo/DubboService/DubboService.iml" filepath="$PROJECT_DIR$/SpringBootDubbo/DubboService/DubboService.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootMybatis/Mybatis/Mybatis.iml" filepath="$PROJECT_DIR$/SpringBootMybatis/Mybatis/Mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootQuartz/Quartz/Quartz.iml" filepath="$PROJECT_DIR$/SpringBootQuartz/Quartz/Quartz.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootRabbitMQ/RabbitMQ/RabbitMQ.iml" filepath="$PROJECT_DIR$/SpringBootRabbitMQ/RabbitMQ/RabbitMQ.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/SpringBoot.iml" filepath="$PROJECT_DIR$/.idea/SpringBoot.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootBatch/SpringBootBatch.iml" filepath="$PROJECT_DIR$/SpringBootBatch/SpringBootBatch.iml" />

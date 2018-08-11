@@ -25,6 +25,7 @@
         <module name="DubboClient" />
         <module name="DubboService" />
         <module name="Mybatis" />
+        <module name="Quartz" />
         <module name="RabbitMQ" />
         <module name="springboot-redis" />
         <module name="SpringBootBatch" />
@@ -52,6 +53,7 @@
       <module name="DubboClient" target="1.8" />
       <module name="DubboService" target="1.8" />
       <module name="Mybatis" target="1.8" />
+      <module name="Quartz" target="1.8" />
       <module name="RabbitMQ" target="1.8" />
       <module name="springboot-dubbo" target="1.8" />
       <module name="springboot-redis" target="1.8" />
