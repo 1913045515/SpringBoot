@@ -1,25 +1,26 @@
 server:
   port: 8080
 
-
 spring:
-  #ÅäÖÃmybatis
+  aop:
+    proxy-target-class: true
+  #é…ç½®mybatis
   datasource:
-    #Êı¾İ¿âurlµØÖ·
+    #æ•°æ®åº“urlåœ°å€
     url: jdbc:mysql://basic-mysql-dev.infuneye.com:3306/yfy_aliyun_test?useSSL=false
-    #Êı¾İ¿âÃû³Æ
+    #æ•°æ®åº“åç§°
     username: infuneye
-    #Êı¾İ¿âÃÜÂë
+    #æ•°æ®åº“å¯†ç 
     password: infuneye_2017
-    #Êı¾İ¿âÇı¶¯Ãû³Æ
+    #æ•°æ®åº“é©±åŠ¨åç§°
     driver-class-name: com.mysql.jdbc.Driver
-    #×î´óµÈ´ıÊ±¼ä
+    #æœ€å¤§ç­‰å¾…æ—¶é—´
     maxWait: 60000
     maxActive: 20
     initialSize: 1
     minIdle: 1
     timeBetweenEvictionRunsMillis: 60000
     minEvictableIdleTimeMillis: 300000
-#Ö¸¶¨mybatisÓ³ÉäÎÄ¼şµÄµØÖ·
+#æŒ‡å®šmybatisæ˜ å°„æ–‡ä»¶çš„åœ°å€
 mybatis:
   mapper-locations: classpath:mapper/*.xml

@@ -6,11 +6,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- *
+ * 接口测试控制类
  * @author qiang220316
  * @date 2018/8/9
  */
-
 @RestController
 public class RabbitMqController {
 
